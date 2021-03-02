@@ -34,3 +34,24 @@
   font-size: 6.25rem;
   margin: 0 0.5rem;
 }
+
+.countdownButton {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  background: var(--blue);
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: var(--white);
+  border-radius: 5px;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  padding: 1.75rem 0;
+  border: 0;
+  transition: background-color 0.2s;
+}
+
+.countdownButton:hover {
+  background: var(--blue-dark);
+}
